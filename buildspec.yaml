@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
-      - gradle clean install
+      - ./gradlew clean build
       - echo Logging in to Amazon ECR...
       - aws --version
       - REPOSITORY_URI=509399628928.dkr.ecr.ap-south-1.amazonaws.com/khelmates-registry

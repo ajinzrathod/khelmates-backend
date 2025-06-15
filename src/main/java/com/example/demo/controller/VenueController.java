@@ -2,7 +2,6 @@ package com.example.demo.controller;
 
 import com.example.demo.entities.Venue;
 import com.example.demo.service.VenueService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
