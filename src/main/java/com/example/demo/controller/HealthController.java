@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HealthController {
     @GetMapping({"/", ""})
+    public String ok() {
+        return "OK";
+    }
+
+    @GetMapping({"health", "health/"})
     public String health() {
         return "OK";
     }
