@@ -16,11 +16,6 @@ public class VenueController {
     this.venueService = venueService;
   }
 
-  @GetMapping({"/", ""})
-  public String health() {
-    return "OK";
-  }
-
   @GetMapping({"/fetch-all", "/fetch-all/"})
   public List<Venue> fetchAll() {
     return venueService.fetchAllVenues();

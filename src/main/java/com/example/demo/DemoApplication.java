@@ -11,6 +11,8 @@ public class DemoApplication {
   public static void main(String[] args) {
     SpringApplication.run(DemoApplication.class, args);
   }
+
+//  --spring.profiles.active=prod
   // Cache Implementation
   // Replica for read
   // Elastic Search
