@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.config.EnableMongoAuditing;
 
 @SpringBootApplication
 @EnableMongoAuditing
-@ComponentScan(basePackages = {"com.example.venue_service", "com.ajinz.common.config"})
+@ComponentScan(basePackages = {"com.ajinz.venue_service", "com.ajinz.common.config"})
 @EnableCaching
 public class VenueServiceApplication {
 
