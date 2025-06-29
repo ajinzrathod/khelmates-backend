@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.venue_service.repository;
 
-import com.example.demo.entities.Venue;
+import com.example.venue_service.entities.Venue;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

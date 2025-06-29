@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.venue_service.controller;
 
 import com.ajinz.common.customannotation.access.ManagerRequired;
-import com.example.demo.entities.Venue;
-import com.example.demo.service.VenueService;
+import com.example.venue_service.entities.Venue;
+import com.example.venue_service.service.VenueService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

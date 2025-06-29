@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.venue_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,12 +8,12 @@ import org.springframework.data.mongodb.config.EnableMongoAuditing;
 
 @SpringBootApplication
 @EnableMongoAuditing
-@ComponentScan(basePackages = {"com.example.demo", "com.ajinz.common.config"})
+@ComponentScan(basePackages = {"com.example.venue_service", "com.ajinz.common.config"})
 @EnableCaching
-public class DemoApplication {
+public class VenueServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(VenueServiceApplication.class, args);
     }
 
 //  --spring.profiles.active=prod

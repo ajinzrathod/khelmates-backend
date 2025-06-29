@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.venue_service.config;
 
 
 import com.ajinz.common.config.BaseSecurityConfig;

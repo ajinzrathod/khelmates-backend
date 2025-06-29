@@ -1,4 +1,4 @@
-package com.example.demo.entities;
+package com.example.venue_service.entities;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;

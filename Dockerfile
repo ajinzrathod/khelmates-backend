@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY build/libs/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/venue-service-0.0.1-SNAPSHOT.jar app.jar
 
 ARG MONGODB_URI
 ENV MONGODB_URI=${MONGODB_URI}
