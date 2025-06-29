@@ -1,4 +1,4 @@
-package com.example.venue_service;
+package com.ajinz.venue_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

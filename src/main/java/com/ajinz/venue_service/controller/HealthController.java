@@ -1,4 +1,4 @@
-package com.example.venue_service.controller;
+package com.ajinz.venue_service.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

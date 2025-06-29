@@ -1,4 +1,4 @@
-package com.example.venue_service;
+package com.ajinz.venue_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,7 @@
-package com.example.venue_service.service;
+package com.ajinz.venue_service.service;
 
-import com.example.venue_service.entities.Venue;
-import com.example.venue_service.repository.VenueRepository;
+import com.ajinz.venue_service.entities.Venue;
+import com.ajinz.venue_service.repository.VenueRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
