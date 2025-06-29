@@ -14,12 +14,27 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.5.0")
+
+    // common
+    implementation 'com.ajinz:common:1.0.0'
+
+    // mongo
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.5.0'
+
+    // cache
+//    implementation 'org.springframework.boot:spring-boot-starter-cache'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+//    implementation 'io.lettuce.core:lettuce-core' // Default Redis client
+
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
